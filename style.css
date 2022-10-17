@@ -96,7 +96,11 @@ menu {
 }
 
 slider {
+  display: block;
   height: 396px;
+  background-image: url('./img/slider.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 footer {
