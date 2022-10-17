@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+:root {
+  --container_width: 980px;
+  --gray_text: #777777;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 199px;
+  display: flex;
+  justify-content: center;
+  background-color: #dcdcdc;
+  color: var(--gray_text);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  width: var(--container_width);
+  margin: 37px 10px 49px;
+}
+
+.header__company {
+  display: flex;
+  gap: 22px;
+}
+
+.header__logo {
+  width: 102px;
+  height: 100px;
+}
+
+.header__companyName {
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 800;
+}
+
+.header__companyDescription {
+  margin-top: 5px;
+}
+
+.header__sale {
+  font-size: 17px;
+  line-height: 22px;
+  margin-top: 15px;
+}
+
+.header__phone {
+  font-size: 31px;
+  line-height: 46px;
+  font-weight: 800;
+}
+
+menu {
+  height: 58px;
+}
+
+slider {
+  height: 396px;
+}
+
+footer {
+  height: 212px;
+}
