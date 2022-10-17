@@ -2,7 +2,12 @@
 
 :root {
   --container_width: 980px;
-  --gray_text: #777777;
+  --gray-main: #777777;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -18,7 +23,7 @@ header {
   display: flex;
   justify-content: center;
   background-color: #dcdcdc;
-  color: var(--gray_text);
+  color: var(--gray-main);
 }
 
 .header__container {
@@ -38,13 +43,13 @@ header {
   height: 100px;
 }
 
-.header__companyName {
+.header__company-name {
   font-size: 25px;
   line-height: 35px;
   font-weight: 800;
 }
 
-.header__companyDescription {
+.header__company-description {
   margin-top: 5px;
 }
 
@@ -62,6 +67,32 @@ header {
 
 menu {
   height: 58px;
+  background-color: var(--gray-main);
+  display: flex;
+  justify-content: center;
+}
+
+.menu__container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+}
+
+.menu__item {
+  padding: 0 15px;
+  color: white;
+  border-right: 1px solid white;
+  font-size: 18px;
+}
+
+.menu__item:last-child {
+  border-right: none;
+}
+
+.menu__item:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 slider {
